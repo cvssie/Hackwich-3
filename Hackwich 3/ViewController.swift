@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     
     @IBAction func changeColorButtonPressed(_ sender: Any) {
         //if statement
-        if firstString == "The baground color will turn red"
+        if firstString == "The background color will turn red"
         {
             //set background to red
             self.view.backgroundColor = UIColor.red
@@ -40,18 +40,41 @@ class ViewController: UIViewController {
     }
     
     var youAre = "cool"
-    //Part 7 pt 1
     
+    //Part 7 pt 1
+    @IBOutlet weak var firstLabel: UILabel!
+    
+    
+    var secondLabel = "this is fun"
+    
+    func textChange(_ sender: Any) {
+        if secondLabel == "this class is fun"
+        {
+            print(youAre)
+            
+        }
+        else
+        {
+            print(firstString)
+            }
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    
     
     
     
 }
-            
-            
-            
-            
-            
-        
